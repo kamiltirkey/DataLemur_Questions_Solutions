@@ -12,23 +12,23 @@ candidates Table:
 |--------------------------|
 | Column Name   |   Type   |
 |---------------|--------- |
-| candidate_id  |	integer  |
-| skill         |	varchar  |
+| candidate_id  | integer  |
+| skill         | varchar  |
 |---------------|----------|  
   
 candidates Example Input:
-|------------------------------|  
-| candidate_id    | skill      |
-|-----------------|------------|
-|123              |	Python     |
-| 123	            | Tableau    |
-| 123	            | PostgreSQL |
-| 234	            | R          |
-| 234	            | PowerBI    |
-| 234	            | SQL Server |
-| 345	            | Python     |
-| 345	            | Tableau    |
-|-----------------|------------|  
+|-------------------------------|
+| candidate_id     | skill      |
+|------------------|------------|
+| 123              |	Python    |
+| 123	             | Tableau    |
+| 123	             | PostgreSQL |
+| 234	             | R          |
+| 234	             | PowerBI    |
+| 234	             | SQL Server |
+| 345	             | Python     |
+| 345	             | Tableau    |
+|------------------|------------|
   
 Example Output:
 |--------------------| 

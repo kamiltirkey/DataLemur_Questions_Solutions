@@ -51,11 +51,11 @@ p.p.s if you find this problem too tricky, even after the hints, check out my 30
 SOLUTIONS :
 
 
-WITH CTE1 AS (
-    SELECT *
-    FROM candidates
-    WHERE skill IN ('Tableau', 'Python', 'PostgreSQL')
-)
+WITH CTE1 AS (   
+  SELECT *
+  FROM candidates
+  WHERE skill IN ('Tableau', 'Python', 'PostgreSQL')
+   )
 
 SELECT DISTINCT candidate_id
 FROM CTE1

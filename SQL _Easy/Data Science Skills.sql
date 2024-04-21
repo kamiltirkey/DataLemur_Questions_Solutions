@@ -11,7 +11,7 @@ There are no duplicates in the candidates table.
 candidates Table:
 |--------------------------|
 | Column Name   |   Type   |
-|---------------|----------|
+|---------------|--------- |
 | candidate_id  |	integer  |
 | skill         |	varchar  |
 |---------------|----------|  
